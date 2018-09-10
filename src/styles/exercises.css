@@ -1,0 +1,32 @@
+.exercise-answer {
+  display: block;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #121212;
+  padding: 12px 24px;
+  margin-left: -20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.exercise-answer:first-child {
+  margin-top: 20px;
+}
+
+.exercise-answer:last-child {
+  margin-bottom: 40px;
+}
+
+.exercise-answer-selected {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-answer.correct {
+  background-color: #99c27c;
+  color: #2a9b5f;
+}
+
+.exercise-answer.incorrect {
+  background-color: #de6d74;
+  color: #ba423e;
+}
