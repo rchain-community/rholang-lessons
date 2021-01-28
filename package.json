@@ -7,11 +7,13 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "codemirror": "^5.37.0",
+    "axios": "^0.21.1",
+    "codemirror": "^5.58.2",
     "codemirror-rholang": "^1.0.1",
     "material-icons-react": "^1.0.0",
     "prop-types": "^15.6.1",
@@ -22,12 +24,14 @@
     "react-html-parser": "^2.0.2",
     "react-router": "^4.2.0",
     "react-smackdown": "^0.8.8",
-    "react-static": "^5.8.8",
-    "uuid": "^3.3.2"
+    "react-static": "^7.0.10",
+    "uuid": "^3.3.2",
+    "snyk": "^1.440.1"
   },
   "devDependencies": {
     "eslint-config-react": "^1.1.7",
     "eslint-config-standard-react": "^6.0.0",
     "serve": "^6.1.0"
-  }
+  },
+  "snyk": true
 }
