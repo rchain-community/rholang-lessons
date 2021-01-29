@@ -16,7 +16,7 @@
     "codemirror": "^5.58.2",
     "codemirror-rholang": "^1.0.1",
     "material-icons-react": "^1.0.0",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.7.2",
     "react": "^16.0.0",
     "react-codemirror2": "^5.0.1",
     "react-dom": "^16.0.0",
