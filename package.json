@@ -26,7 +26,7 @@
     "react-smackdown": "^0.8.8",
     "react-static": "^7.5.0",
     "uuid": "^3.4.0",
-    "snyk": "^1.440.1"
+    "snyk": "^1.445.0"
   },
   "devDependencies": {
     "eslint-config-react": "^1.1.7",
